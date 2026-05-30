@@ -1,0 +1,18 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local scratch and exports
+local-output/
+exports/
+*.tmp
+*.log
+
+# Package artifacts
+*.zip

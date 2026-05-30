@@ -1,0 +1,25 @@
+flowchart TD
+    A[Request enters portfolio funnel<br/>idea, mandate, compliance need,<br/>AI use case, project request] --> B[Create intake record]
+    B --> C{Minimum information present?}
+    C -- No --> D[Clarify route<br/>missing evidence list<br/>owner follow-up]
+    C -- Yes --> E[Run readiness triage]
+    E --> F[Sponsorship screen]
+    E --> G[Problem clarity screen]
+    E --> H[Dependency and capacity screen]
+    F --> I{Ready for routing?}
+    G --> I
+    H --> I
+    I -- Reject --> J[Reject / no further action<br/>with rationale]
+    I -- Hold --> K[Hold / parking lot<br/>trigger and review date]
+    I -- Clarify --> D
+    I -- Business case --> L[Business Case System]
+    I -- Charter --> M[Project Charter Initiation Agent]
+    I -- Scoring --> N[Portfolio Prioritization Scoring Agent]
+    I -- AI opportunity --> O[AI Opportunity Intelligence Review System]
+    I -- AI artifact concern --> P[AI Artifact Lifecycle Governance System]
+    L --> Q[Human sponsor confirms next step]
+    M --> Q
+    N --> Q
+    O --> Q
+    P --> Q
+    Q --> R[Do not authorize funding, execution,<br/>risk acceptance, or system changes]
