@@ -2,6 +2,18 @@
 
 A human-governed intake triage system for classifying rough portfolio demand before it becomes false WIP, premature business cases, unready charters, or noisy portfolio backlog.
 
+## Portfolio exhibit
+
+| Review question | Where to look |
+|---|---|
+| Status | Public portfolio prototype for ChatGPT Project use and intake-readiness review. |
+| Best evaluator | PMO, portfolio, program, strategy, or executive operations leaders who need cleaner demand before business case, charter, scoring, or delivery work begins. |
+| Operating decision supported | Is this request ready to reject, hold, clarify, shape into a business case, move toward charter, route to portfolio scoring, or send to an AI governance path? |
+| Concrete example | [`examples/sample-output.html`](examples/sample-output.html) shows a synthetic intake triage output with readiness classification and routing. |
+| Before / after proof | Before: requests arrive as mandates, ideas, partial notes, or solution-first asks. After: each request has an intake record, readiness view, missing-evidence list, sponsorship signal, and recommended next route. |
+| Boundary | This system classifies and routes demand. It does not build the business case, write the charter, score approved investments, authorize execution, assign resources, or accept risk. |
+| Portfolio lane | [Triage intake readiness](https://policani.net/#navigator). |
+
 ## Operating problem
 
 Portfolio work often enters governance too early, too vaguely, or without accountable sponsorship. A CFO may ask for a billing workflow fix, a CTO may request platform modernization, and a department lead may submit an AI automation idea. Each request may matter, but not every request is ready for the same next step.
