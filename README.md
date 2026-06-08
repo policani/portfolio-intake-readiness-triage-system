@@ -172,6 +172,10 @@ portfolio-intake-readiness-triage-system/
 
 This module supports intake, classification, synthesis, routing, and decision preparation. Humans retain authority for approvals, funding, prioritization, sequencing, staffing, risk acceptance, compliance judgment, stakeholder communication, and execution. The system may recommend a route; it must not make the decision.
 
+## License
+
+Source code and scripts are licensed under MIT. Documentation, prompts, templates, examples, and other non-code materials are licensed under CC BY 4.0 with attribution to Marco Policani. See `LICENSE.md`.
+
 ## Search keywords
 
 portfolio intake, intake readiness, PMO intake, EPMO intake, portfolio governance, demand management, project intake, initiative triage, intake classification, sponsorship review, business case routing, project charter readiness, portfolio prioritization handoff, AI-assisted PMO, executive operating system, program governance, portfolio decision support, human-governed AI workflow.
